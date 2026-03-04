@@ -1,0 +1,183 @@
+{
+  "data": {
+    "nodeShelters": {
+      "__typename": "NodeShelterConnection",
+      "nodes": [
+        {
+          "__typename": "NodeShelter",
+          "id": "shelter-main",
+          "title": "Harbor Main Emergency Shelter",
+          "path": "/shelters/harbor-main-shelter",
+          "body": {
+            "processed": "<p>Our flagship emergency shelter provides immediate, safe lodging for individuals experiencing homelessness. Open 365 days a year, the Main Shelter offers a warm bed, hot meals, hygiene facilities, and access to on-site case managers who can help connect guests with long-term housing solutions.</p><h2>Services Provided</h2><ul><li>Safe overnight accommodation with secure storage</li><li>Three nutritious meals daily prepared by our kitchen staff</li><li>Shower and laundry facilities</li><li>On-site case management and intake assessments</li><li>Connection to mental health and substance recovery support</li></ul><h2>Intake Process</h2><p>Walk-ins are welcome on a first-come, first-served basis. Guests check in between 5:00 PM and 8:00 PM and are provided with a bed assignment, linens, and a toiletry kit. Case managers conduct initial assessments within 48 hours of arrival.</p>",
+            "summary": "Our flagship emergency shelter provides immediate, safe lodging for individuals experiencing homelessness. Open 365 days a year, the Main Shelter offers a warm bed, hot meals, hygiene facilities, and "
+          },
+          "shelterType": [
+            {
+              "id": "emergency-shelter",
+              "name": "emergency-shelter"
+            }
+          ],
+          "capacity": "200 beds",
+          "address": "450 Harbor Boulevard, Springfield, IL 62701",
+          "phone": "(555) 300-1000",
+          "hours": "Check-in: 5:00 PM - 8:00 PM, Check-out: 7:00 AM",
+          "eligibility": {
+            "processed": "<p>Open to all adults 18 and older experiencing homelessness. No ID required for initial intake. Guests must follow shelter code of conduct. Priority is given to individuals referred by outreach teams during extreme weather events.</p>",
+            "summary": "Open to all adults 18 and older experiencing homelessness. No ID required for initial intake. Guests must follow shelter code of conduct. Priority is given to individuals referred by outreach teams du"
+          },
+          "amenities": [
+            "Meals",
+            "Showers",
+            "Laundry",
+            "Case Management",
+            "Storage Lockers",
+            "Wi-Fi"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&q=80",
+            "alt": "Harbor Main Emergency Shelter building exterior",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeShelter",
+          "id": "shelter-family",
+          "title": "Family Haven Shelter",
+          "path": "/shelters/family-haven",
+          "body": {
+            "processed": "<p>Family Haven provides a safe, supportive environment specifically designed for families with children experiencing homelessness. Our family-centered approach keeps parents and children together while providing the resources families need to regain stability.</p><h2>Family-Centered Services</h2><ul><li>Private family rooms with cribs and children's beds</li><li>On-site childcare and after-school tutoring</li><li>Parenting workshops and family counseling</li><li>School enrollment assistance and transportation</li><li>Housing navigation and rapid rehousing support</li></ul><p>Each family is assigned a dedicated case manager who creates a personalized housing plan and connects them with community resources. Average length of stay is 60 to 90 days, during which families work toward securing permanent housing.</p>",
+            "summary": "Family Haven provides a safe, supportive environment specifically designed for families with children experiencing homelessness. Our family-centered approach keeps parents and children together while "
+          },
+          "shelterType": [
+            {
+              "id": "family-shelter",
+              "name": "family-shelter"
+            }
+          ],
+          "capacity": "35 family units",
+          "address": "820 Maple Street, Springfield, IL 62704",
+          "phone": "(555) 300-1200",
+          "hours": "24-hour access for residents",
+          "eligibility": {
+            "processed": "<p>Open to families with at least one child under 18. Referrals accepted from 211, DCFS, schools, and hospitals. Walk-in intake available Monday through Friday, 9:00 AM to 5:00 PM.</p>",
+            "summary": "Open to families with at least one child under 18. Referrals accepted from 211, DCFS, schools, and hospitals. Walk-in intake available Monday through Friday, 9:00 AM to 5:00 PM."
+          },
+          "amenities": [
+            "Private Rooms",
+            "Childcare",
+            "Tutoring",
+            "Family Counseling",
+            "Play Area",
+            "Meals"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&q=80",
+            "alt": "Family Haven Shelter welcoming entrance",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeShelter",
+          "id": "shelter-youth",
+          "title": "New Directions Youth Shelter",
+          "path": "/shelters/new-directions-youth",
+          "body": {
+            "processed": "<p>New Directions serves unaccompanied youth ages 14 to 24 who are homeless, at risk of homelessness, or fleeing unsafe living situations. Our youth-focused programming provides not just shelter, but a pathway to independence and self-sufficiency.</p><h2>Youth Services</h2><ul><li>Emergency and transitional beds for youth ages 14 to 24</li><li>GED preparation and educational support</li><li>Job readiness training and employment placement</li><li>Independent living skills workshops</li><li>Mental health counseling and crisis intervention</li></ul><p>Youth are matched with mentors from the community who provide guidance and encouragement as they work toward educational and employment goals. Our goal is to help every young person build the skills and connections needed for lasting stability.</p>",
+            "summary": "New Directions serves unaccompanied youth ages 14 to 24 who are homeless, at risk of homelessness, or fleeing unsafe living situations. Our youth-focused programming provides not just shelter, but a p"
+          },
+          "shelterType": [
+            {
+              "id": "youth-shelter",
+              "name": "youth-shelter"
+            }
+          ],
+          "capacity": "40 beds",
+          "address": "1100 Oak Avenue, Springfield, IL 62702",
+          "phone": "(555) 300-1400",
+          "hours": "Drop-in: 3:00 PM - 9:00 PM, Overnight: 24-hour for enrolled youth",
+          "eligibility": {
+            "processed": "<p>Open to youth ages 14 to 24 who are unaccompanied and experiencing homelessness. No parental consent required for youth 16 and older. LGBTQ+ affirming environment. Walk-ins and referrals accepted.</p>",
+            "summary": "Open to youth ages 14 to 24 who are unaccompanied and experiencing homelessness. No parental consent required for youth 16 and older. LGBTQ+ affirming environment. Walk-ins and referrals accepted."
+          },
+          "amenities": [
+            "Tutoring",
+            "Computer Lab",
+            "Meals",
+            "Counseling",
+            "Recreation Room",
+            "Mentorship"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&q=80",
+            "alt": "New Directions Youth Shelter common area",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

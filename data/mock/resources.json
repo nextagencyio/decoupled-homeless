@@ -1,0 +1,150 @@
+{
+  "data": {
+    "nodeResources": {
+      "__typename": "NodeResourceConnection",
+      "nodes": [
+        {
+          "__typename": "NodeResource",
+          "id": "resource-food-pantry",
+          "title": "Community Food Pantry & Meals",
+          "path": "/resources/community-food-pantry",
+          "body": {
+            "processed": "<p>Access to nutritious food is a fundamental need. Our Community Food Pantry provides groceries, prepared meals, and nutrition education to individuals and families in need, regardless of housing status.</p><h2>Available Services</h2><ul><li>Hot lunch served daily from 11:30 AM to 1:00 PM</li><li>Grocery bags distributed every Tuesday and Thursday, 2:00 PM to 5:00 PM</li><li>Weekend meal packs for families with children</li><li>Holiday meal distribution at Thanksgiving and Christmas</li><li>Nutrition counseling with a registered dietitian (by appointment)</li></ul><p>No documentation or proof of income required. All are welcome.</p>",
+            "summary": "Access to nutritious food is a fundamental need. Our Community Food Pantry provides groceries, prepared meals, and nutrition education to individuals and families in need, regardless of housing status"
+          },
+          "resourceType": [
+            {
+              "id": "food-assistance",
+              "name": "food-assistance"
+            }
+          ],
+          "provider": "Harbor of Hope Food Services",
+          "phone": "(555) 300-2000",
+          "websiteUrl": "https://harborofhope.org/food",
+          "address": "450 Harbor Boulevard, Springfield, IL 62701",
+          "availability": "Daily lunch 11:30 AM - 1:00 PM, Pantry Tue & Thu 2:00 PM - 5:00 PM",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80",
+            "alt": "Volunteers organizing food at the community pantry",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeResource",
+          "id": "resource-health-clinic",
+          "title": "Harbor Free Health Clinic",
+          "path": "/resources/free-health-clinic",
+          "body": {
+            "processed": "<p>The Harbor Free Health Clinic provides essential medical and dental care to individuals experiencing homelessness and those without health insurance. Our volunteer physicians, nurses, and dentists deliver compassionate, professional care in a welcoming environment.</p><h2>Services</h2><ul><li>Primary care visits and wellness exams</li><li>Chronic disease management (diabetes, hypertension, asthma)</li><li>Dental cleanings, fillings, and extractions</li><li>Vision screenings and free eyeglasses</li><li>Prescription assistance and medication management</li><li>Health insurance enrollment assistance</li></ul>",
+            "summary": "The Harbor Free Health Clinic provides essential medical and dental care to individuals experiencing homelessness and those without health insurance. Our volunteer physicians, nurses, and dentists del"
+          },
+          "resourceType": [
+            {
+              "id": "healthcare",
+              "name": "healthcare"
+            }
+          ],
+          "provider": "Harbor Health Alliance",
+          "phone": "(555) 300-2200",
+          "websiteUrl": "https://harborhealthalliance.org",
+          "address": "460 Harbor Boulevard, Suite 100, Springfield, IL 62701",
+          "availability": "Mon, Wed, Fri 9:00 AM - 4:00 PM, Dental: Tue & Thu by appointment",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+            "alt": "Healthcare professional at free clinic",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeResource",
+          "id": "resource-legal-aid",
+          "title": "Legal Aid & Advocacy Services",
+          "path": "/resources/legal-aid-services",
+          "body": {
+            "processed": "<p>Our Legal Aid partners provide free legal assistance to individuals and families experiencing homelessness. Common issues include eviction defense, benefits denials, identification recovery, and criminal record expungement, all of which can be barriers to obtaining stable housing.</p><h2>Common Legal Issues We Help With</h2><ul><li>Eviction defense and landlord-tenant disputes</li><li>Benefits appeals (SSI, SSDI, SNAP, Medicaid)</li><li>ID recovery (birth certificates, state IDs, Social Security cards)</li><li>Criminal record expungement and sealing</li><li>Veterans benefits claims</li></ul><p>Appointments are available at the Harbor Main Office. Walk-in legal clinics are held the first and third Saturday of each month.</p>",
+            "summary": "Our Legal Aid partners provide free legal assistance to individuals and families experiencing homelessness. Common issues include eviction defense, benefits denials, identification recovery, and crimi"
+          },
+          "resourceType": [
+            {
+              "id": "legal-aid",
+              "name": "legal-aid"
+            }
+          ],
+          "provider": "Prairie State Legal Aid",
+          "phone": "(555) 300-2400",
+          "websiteUrl": "https://prairiestatelegalaid.org",
+          "address": "450 Harbor Boulevard, Springfield, IL 62701",
+          "availability": "By appointment Mon-Fri, Walk-in clinics 1st & 3rd Saturdays 10:00 AM - 2:00 PM",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
+            "alt": "Legal consultation at the aid office",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

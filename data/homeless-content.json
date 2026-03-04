@@ -1,0 +1,424 @@
+{
+  "model": [
+    {
+      "bundle": "homepage",
+      "label": "Homepage",
+      "description": "Homeless services organization homepage with hero, statistics, and call to action",
+      "fields": [
+        { "id": "hero_title", "label": "Hero Title", "type": "string" },
+        { "id": "hero_subtitle", "label": "Hero Subtitle", "type": "string" },
+        { "id": "hero_description", "label": "Hero Description", "type": "text" },
+        { "id": "stats_items", "label": "Statistics", "type": "paragraph(stat_item)[]" },
+        { "id": "featured_items_title", "label": "Featured Items Title", "type": "string" },
+        { "id": "cta_title", "label": "CTA Title", "type": "string" },
+        { "id": "cta_description", "label": "CTA Description", "type": "text" },
+        { "id": "cta_primary", "label": "Primary CTA", "type": "string" },
+        { "id": "cta_secondary", "label": "Secondary CTA", "type": "string" }
+      ]
+    },
+    {
+      "bundle": "shelter",
+      "label": "Shelter",
+      "description": "Emergency and transitional shelter locations",
+      "body": true,
+      "fields": [
+        { "id": "shelter_type", "label": "Shelter Type", "type": "term(shelter_types)[]" },
+        { "id": "capacity", "label": "Capacity", "type": "string" },
+        { "id": "address", "label": "Address", "type": "string" },
+        { "id": "phone", "label": "Phone", "type": "string" },
+        { "id": "hours", "label": "Operating Hours", "type": "string" },
+        { "id": "eligibility", "label": "Eligibility Requirements", "type": "text" },
+        { "id": "amenities", "label": "Amenities", "type": "string[]" },
+        { "id": "image", "label": "Shelter Image", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "program",
+      "label": "Program",
+      "description": "Support programs and services offered by the organization",
+      "body": true,
+      "fields": [
+        { "id": "program_category", "label": "Program Category", "type": "term(program_categories)[]" },
+        { "id": "duration", "label": "Program Duration", "type": "string" },
+        { "id": "schedule", "label": "Schedule", "type": "string" },
+        { "id": "location", "label": "Location", "type": "string" },
+        { "id": "contact_name", "label": "Contact Person", "type": "string" },
+        { "id": "contact_email", "label": "Contact Email", "type": "string" },
+        { "id": "image", "label": "Program Image", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "resource",
+      "label": "Resource",
+      "description": "Community resources and referral information",
+      "body": true,
+      "fields": [
+        { "id": "resource_type", "label": "Resource Type", "type": "term(resource_types)[]" },
+        { "id": "provider", "label": "Provider Organization", "type": "string" },
+        { "id": "phone", "label": "Phone", "type": "string" },
+        { "id": "website_url", "label": "Website URL", "type": "string" },
+        { "id": "address", "label": "Address", "type": "string" },
+        { "id": "availability", "label": "Availability", "type": "string" },
+        { "id": "image", "label": "Resource Image", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "impact_story",
+      "label": "Impact Story",
+      "description": "Success stories and testimonials from individuals served",
+      "body": true,
+      "fields": [
+        { "id": "person_name", "label": "Person Name", "type": "string" },
+        { "id": "program_participated", "label": "Program Participated", "type": "string" },
+        { "id": "quote", "label": "Pull Quote", "type": "text" },
+        { "id": "outcome", "label": "Outcome", "type": "string" },
+        { "id": "image", "label": "Story Image", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "page",
+      "label": "Basic Page",
+      "description": "Static content pages",
+      "body": true,
+      "fields": []
+    },
+    {
+      "entity": "paragraph",
+      "bundle": "stat_item",
+      "label": "Statistic Item",
+      "description": "A key statistic with number and label",
+      "fields": [
+        { "id": "number", "label": "Number", "type": "string!", "description": "The statistic value" },
+        { "id": "label", "label": "Label", "type": "string!", "description": "What the number represents" }
+      ]
+    }
+  ],
+  "taxonomies": [
+    {
+      "vid": "shelter_types",
+      "name": "Shelter Types",
+      "terms": [
+        { "name": "Emergency Shelter" },
+        { "name": "Transitional Housing" },
+        { "name": "Family Shelter" },
+        { "name": "Youth Shelter" },
+        { "name": "Winter Warming Center" }
+      ]
+    },
+    {
+      "vid": "program_categories",
+      "name": "Program Categories",
+      "terms": [
+        { "name": "Housing Assistance" },
+        { "name": "Job Training" },
+        { "name": "Mental Health" },
+        { "name": "Substance Recovery" },
+        { "name": "Life Skills" },
+        { "name": "Case Management" }
+      ]
+    },
+    {
+      "vid": "resource_types",
+      "name": "Resource Types",
+      "terms": [
+        { "name": "Food Assistance" },
+        { "name": "Healthcare" },
+        { "name": "Legal Aid" },
+        { "name": "Financial Assistance" },
+        { "name": "Transportation" },
+        { "name": "Clothing & Supplies" }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "id": "stat-served",
+      "type": "paragraph.stat_item",
+      "values": { "number": "12,500+", "label": "Individuals Served Annually" }
+    },
+    {
+      "id": "stat-sheltered",
+      "type": "paragraph.stat_item",
+      "values": { "number": "850", "label": "Shelter Beds Nightly" }
+    },
+    {
+      "id": "stat-housed",
+      "type": "paragraph.stat_item",
+      "values": { "number": "2,300", "label": "Permanently Housed Last Year" }
+    },
+    {
+      "id": "stat-programs",
+      "type": "paragraph.stat_item",
+      "values": { "number": "40+", "label": "Programs & Services" }
+    },
+    {
+      "id": "homepage",
+      "type": "node.homepage",
+      "path": "/homepage",
+      "values": {
+        "title": "Welcome to Harbor of Hope",
+        "hero_title": "Everyone Deserves a Place to Call Home",
+        "hero_subtitle": "Providing Shelter, Support, and Pathways to Stability",
+        "hero_description": "<p>Harbor of Hope is dedicated to ending homelessness in our community. Through comprehensive services including emergency shelter, transitional housing, job training, and case management, we help individuals and families rebuild their lives with dignity.</p>",
+        "stats_items": ["@stat-served", "@stat-sheltered", "@stat-housed", "@stat-programs"],
+        "featured_items_title": "Our Programs",
+        "cta_title": "Help Us Make a Difference",
+        "cta_description": "<p>Your support provides warm beds, nutritious meals, and life-changing programs to our neighbors experiencing homelessness. Every contribution brings someone closer to home.</p>",
+        "cta_primary": "Donate Now",
+        "cta_secondary": "Volunteer With Us"
+      }
+    },
+    {
+      "id": "shelter-main",
+      "type": "node.shelter",
+      "path": "/shelters/harbor-main-shelter",
+      "values": {
+        "title": "Harbor Main Emergency Shelter",
+        "body": "<p>Our flagship emergency shelter provides immediate, safe lodging for individuals experiencing homelessness. Open 365 days a year, the Main Shelter offers a warm bed, hot meals, hygiene facilities, and access to on-site case managers who can help connect guests with long-term housing solutions.</p><h2>Services Provided</h2><ul><li>Safe overnight accommodation with secure storage</li><li>Three nutritious meals daily prepared by our kitchen staff</li><li>Shower and laundry facilities</li><li>On-site case management and intake assessments</li><li>Connection to mental health and substance recovery support</li></ul><h2>Intake Process</h2><p>Walk-ins are welcome on a first-come, first-served basis. Guests check in between 5:00 PM and 8:00 PM and are provided with a bed assignment, linens, and a toiletry kit. Case managers conduct initial assessments within 48 hours of arrival.</p>",
+        "shelter_type": ["emergency-shelter"],
+        "capacity": "200 beds",
+        "address": "450 Harbor Boulevard, Springfield, IL 62701",
+        "phone": "(555) 300-1000",
+        "hours": "Check-in: 5:00 PM - 8:00 PM, Check-out: 7:00 AM",
+        "eligibility": "<p>Open to all adults 18 and older experiencing homelessness. No ID required for initial intake. Guests must follow shelter code of conduct. Priority is given to individuals referred by outreach teams during extreme weather events.</p>",
+        "amenities": ["Meals", "Showers", "Laundry", "Case Management", "Storage Lockers", "Wi-Fi"],
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&q=80",
+          "alt": "Harbor Main Emergency Shelter building exterior"
+        }
+      }
+    },
+    {
+      "id": "shelter-family",
+      "type": "node.shelter",
+      "path": "/shelters/family-haven",
+      "values": {
+        "title": "Family Haven Shelter",
+        "body": "<p>Family Haven provides a safe, supportive environment specifically designed for families with children experiencing homelessness. Our family-centered approach keeps parents and children together while providing the resources families need to regain stability.</p><h2>Family-Centered Services</h2><ul><li>Private family rooms with cribs and children's beds</li><li>On-site childcare and after-school tutoring</li><li>Parenting workshops and family counseling</li><li>School enrollment assistance and transportation</li><li>Housing navigation and rapid rehousing support</li></ul><p>Each family is assigned a dedicated case manager who creates a personalized housing plan and connects them with community resources. Average length of stay is 60 to 90 days, during which families work toward securing permanent housing.</p>",
+        "shelter_type": ["family-shelter"],
+        "capacity": "35 family units",
+        "address": "820 Maple Street, Springfield, IL 62704",
+        "phone": "(555) 300-1200",
+        "hours": "24-hour access for residents",
+        "eligibility": "<p>Open to families with at least one child under 18. Referrals accepted from 211, DCFS, schools, and hospitals. Walk-in intake available Monday through Friday, 9:00 AM to 5:00 PM.</p>",
+        "amenities": ["Private Rooms", "Childcare", "Tutoring", "Family Counseling", "Play Area", "Meals"],
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&q=80",
+          "alt": "Family Haven Shelter welcoming entrance"
+        }
+      }
+    },
+    {
+      "id": "shelter-youth",
+      "type": "node.shelter",
+      "path": "/shelters/new-directions-youth",
+      "values": {
+        "title": "New Directions Youth Shelter",
+        "body": "<p>New Directions serves unaccompanied youth ages 14 to 24 who are homeless, at risk of homelessness, or fleeing unsafe living situations. Our youth-focused programming provides not just shelter, but a pathway to independence and self-sufficiency.</p><h2>Youth Services</h2><ul><li>Emergency and transitional beds for youth ages 14 to 24</li><li>GED preparation and educational support</li><li>Job readiness training and employment placement</li><li>Independent living skills workshops</li><li>Mental health counseling and crisis intervention</li></ul><p>Youth are matched with mentors from the community who provide guidance and encouragement as they work toward educational and employment goals. Our goal is to help every young person build the skills and connections needed for lasting stability.</p>",
+        "shelter_type": ["youth-shelter"],
+        "capacity": "40 beds",
+        "address": "1100 Oak Avenue, Springfield, IL 62702",
+        "phone": "(555) 300-1400",
+        "hours": "Drop-in: 3:00 PM - 9:00 PM, Overnight: 24-hour for enrolled youth",
+        "eligibility": "<p>Open to youth ages 14 to 24 who are unaccompanied and experiencing homelessness. No parental consent required for youth 16 and older. LGBTQ+ affirming environment. Walk-ins and referrals accepted.</p>",
+        "amenities": ["Tutoring", "Computer Lab", "Meals", "Counseling", "Recreation Room", "Mentorship"],
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&q=80",
+          "alt": "New Directions Youth Shelter common area"
+        }
+      }
+    },
+    {
+      "id": "program-job-training",
+      "type": "node.program",
+      "path": "/programs/job-training-employment",
+      "values": {
+        "title": "Job Training & Employment Program",
+        "body": "<p>Our comprehensive Job Training and Employment Program equips participants with the skills, credentials, and confidence needed to secure and maintain stable employment. From resume writing to interview coaching and on-the-job training, we walk alongside each participant on their path to financial independence.</p><h2>Program Components</h2><ul><li>Skills assessment and career exploration</li><li>Resume writing and interview preparation workshops</li><li>Industry-specific certifications (food service, construction, healthcare)</li><li>Paid internship placements with local employers</li><li>Job retention coaching for 12 months post-placement</li></ul><h2>Outcomes</h2><p>Last year, 78% of program graduates secured employment within 90 days, with an average starting wage of $16.50 per hour. Employer partners include local restaurants, construction firms, healthcare facilities, and manufacturing companies.</p>",
+        "program_category": ["job-training"],
+        "duration": "8 to 12 weeks",
+        "schedule": "Monday through Friday, 9:00 AM - 3:00 PM",
+        "location": "Harbor Workforce Center, 500 Commerce Drive",
+        "contact_name": "Marcus Williams",
+        "contact_email": "mwilliams@harborofhope.org",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&q=80",
+          "alt": "Job training workshop participants learning new skills"
+        }
+      }
+    },
+    {
+      "id": "program-housing-first",
+      "type": "node.program",
+      "path": "/programs/housing-first",
+      "values": {
+        "title": "Housing First Rapid Rehousing",
+        "body": "<p>Our Housing First model prioritizes moving individuals and families into permanent housing as quickly as possible, then providing the wrap-around support services needed to maintain housing stability. Research consistently shows that Housing First is the most effective approach to ending homelessness.</p><h2>How It Works</h2><ul><li>Housing navigators help locate available affordable apartments</li><li>Financial assistance for security deposits, first month's rent, and move-in costs</li><li>Landlord mediation and advocacy</li><li>Ongoing case management for 12 to 24 months</li><li>Connection to benefits, healthcare, and community resources</li></ul><h2>Results</h2><p>Over 90% of individuals placed through our Housing First program remain housed after one year. This program is funded through HUD Continuum of Care grants and private donations.</p>",
+        "program_category": ["housing-assistance"],
+        "duration": "12 to 24 months of support services",
+        "schedule": "By appointment",
+        "location": "Harbor Main Office, 450 Harbor Boulevard",
+        "contact_name": "Angela Rodriguez",
+        "contact_email": "arodriguez@harborofhope.org",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+          "alt": "Keys being handed over to a new resident"
+        }
+      }
+    },
+    {
+      "id": "program-recovery",
+      "type": "node.program",
+      "path": "/programs/recovery-support",
+      "values": {
+        "title": "Recovery & Wellness Program",
+        "body": "<p>The Recovery and Wellness Program provides integrated behavioral health services for individuals experiencing homelessness who are also navigating substance use disorders and mental health challenges. Our trauma-informed approach recognizes the deep connection between homelessness, mental health, and substance use.</p><h2>Services</h2><ul><li>Individual and group counseling sessions</li><li>Medication-assisted treatment coordination</li><li>Peer support from individuals with lived experience</li><li>Recovery housing placements</li><li>Wellness activities including yoga, art therapy, and mindfulness</li></ul><p>All services are provided free of charge by licensed clinicians and certified peer specialists. No insurance required. Walk-ins welcome at our drop-in center Monday through Saturday.</p>",
+        "program_category": ["substance-recovery", "mental-health"],
+        "duration": "Ongoing, individualized treatment plans",
+        "schedule": "Drop-in: Mon-Sat 10:00 AM - 6:00 PM, Groups: Weekday evenings",
+        "location": "Harbor Wellness Center, 475 Harbor Boulevard",
+        "contact_name": "Dr. Lisa Park",
+        "contact_email": "lpark@harborofhope.org",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=800&q=80",
+          "alt": "Group counseling session in a supportive environment"
+        }
+      }
+    },
+    {
+      "id": "resource-food-pantry",
+      "type": "node.resource",
+      "path": "/resources/community-food-pantry",
+      "values": {
+        "title": "Community Food Pantry & Meals",
+        "body": "<p>Access to nutritious food is a fundamental need. Our Community Food Pantry provides groceries, prepared meals, and nutrition education to individuals and families in need, regardless of housing status.</p><h2>Available Services</h2><ul><li>Hot lunch served daily from 11:30 AM to 1:00 PM</li><li>Grocery bags distributed every Tuesday and Thursday, 2:00 PM to 5:00 PM</li><li>Weekend meal packs for families with children</li><li>Holiday meal distribution at Thanksgiving and Christmas</li><li>Nutrition counseling with a registered dietitian (by appointment)</li></ul><p>No documentation or proof of income required. All are welcome.</p>",
+        "resource_type": ["food-assistance"],
+        "provider": "Harbor of Hope Food Services",
+        "phone": "(555) 300-2000",
+        "website_url": "https://harborofhope.org/food",
+        "address": "450 Harbor Boulevard, Springfield, IL 62701",
+        "availability": "Daily lunch 11:30 AM - 1:00 PM, Pantry Tue & Thu 2:00 PM - 5:00 PM",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80",
+          "alt": "Volunteers organizing food at the community pantry"
+        }
+      }
+    },
+    {
+      "id": "resource-health-clinic",
+      "type": "node.resource",
+      "path": "/resources/free-health-clinic",
+      "values": {
+        "title": "Harbor Free Health Clinic",
+        "body": "<p>The Harbor Free Health Clinic provides essential medical and dental care to individuals experiencing homelessness and those without health insurance. Our volunteer physicians, nurses, and dentists deliver compassionate, professional care in a welcoming environment.</p><h2>Services</h2><ul><li>Primary care visits and wellness exams</li><li>Chronic disease management (diabetes, hypertension, asthma)</li><li>Dental cleanings, fillings, and extractions</li><li>Vision screenings and free eyeglasses</li><li>Prescription assistance and medication management</li><li>Health insurance enrollment assistance</li></ul>",
+        "resource_type": ["healthcare"],
+        "provider": "Harbor Health Alliance",
+        "phone": "(555) 300-2200",
+        "website_url": "https://harborhealthalliance.org",
+        "address": "460 Harbor Boulevard, Suite 100, Springfield, IL 62701",
+        "availability": "Mon, Wed, Fri 9:00 AM - 4:00 PM, Dental: Tue & Thu by appointment",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+          "alt": "Healthcare professional at free clinic"
+        }
+      }
+    },
+    {
+      "id": "resource-legal-aid",
+      "type": "node.resource",
+      "path": "/resources/legal-aid-services",
+      "values": {
+        "title": "Legal Aid & Advocacy Services",
+        "body": "<p>Our Legal Aid partners provide free legal assistance to individuals and families experiencing homelessness. Common issues include eviction defense, benefits denials, identification recovery, and criminal record expungement, all of which can be barriers to obtaining stable housing.</p><h2>Common Legal Issues We Help With</h2><ul><li>Eviction defense and landlord-tenant disputes</li><li>Benefits appeals (SSI, SSDI, SNAP, Medicaid)</li><li>ID recovery (birth certificates, state IDs, Social Security cards)</li><li>Criminal record expungement and sealing</li><li>Veterans benefits claims</li></ul><p>Appointments are available at the Harbor Main Office. Walk-in legal clinics are held the first and third Saturday of each month.</p>",
+        "resource_type": ["legal-aid"],
+        "provider": "Prairie State Legal Aid",
+        "phone": "(555) 300-2400",
+        "website_url": "https://prairiestatelegalaid.org",
+        "address": "450 Harbor Boulevard, Springfield, IL 62701",
+        "availability": "By appointment Mon-Fri, Walk-in clinics 1st & 3rd Saturdays 10:00 AM - 2:00 PM",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
+          "alt": "Legal consultation at the aid office"
+        }
+      }
+    },
+    {
+      "id": "story-marcus",
+      "type": "node.impact_story",
+      "path": "/stories/marcus-journey-home",
+      "values": {
+        "title": "Marcus's Journey Home",
+        "body": "<p>After losing his job during the pandemic and exhausting his savings, Marcus found himself living in his car for three months. He came to Harbor of Hope feeling defeated and uncertain about the future.</p><p>Through our Job Training Program, Marcus earned his forklift certification and completed a paid internship at a local warehouse. His case manager helped him secure a one-bedroom apartment through our Housing First program.</p><h2>Where Marcus Is Today</h2><p>Marcus has been in stable housing for over a year and was recently promoted to shift supervisor at his company. He now mentors other program participants, sharing his experience and encouraging them to keep going.</p>",
+        "person_name": "Marcus T.",
+        "program_participated": "Job Training & Employment Program",
+        "quote": "<p>Harbor of Hope did not just give me a roof over my head. They gave me back my dignity and a reason to believe in myself again.</p>",
+        "outcome": "Permanent housing and full-time employment for 14 months",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=80",
+          "alt": "Portrait representing Marcus's journey to stability"
+        }
+      }
+    },
+    {
+      "id": "story-deshawn-family",
+      "type": "node.impact_story",
+      "path": "/stories/deshawn-family-new-beginning",
+      "values": {
+        "title": "A New Beginning for the DeShawn Family",
+        "body": "<p>When a house fire destroyed everything the DeShawn family owned, parents Keisha and James and their three children had nowhere to turn. They arrived at Family Haven with only the clothes on their backs.</p><p>Within 48 hours, the family was settled into a private room at Family Haven. The children were enrolled in school with transportation arranged, while Keisha and James worked with their case manager to navigate insurance claims and find new housing.</p><h2>Rebuilding Together</h2><p>After 75 days at Family Haven, the DeShawn family moved into a three-bedroom apartment. Community donations helped furnish their new home, and the children have thrived in their new school. Keisha now volunteers at the shelter every Saturday, helping other families during their time of crisis.</p>",
+        "person_name": "The DeShawn Family",
+        "program_participated": "Family Haven Shelter & Rapid Rehousing",
+        "quote": "<p>Family Haven kept our family together when we thought we had lost everything. They treated us like family and gave our kids a safe place to just be kids.</p>",
+        "outcome": "Permanent housing secured in 75 days, children enrolled and thriving in school",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&q=80",
+          "alt": "Family in front of their new home"
+        }
+      }
+    },
+    {
+      "id": "story-sarah",
+      "type": "node.impact_story",
+      "path": "/stories/sarah-recovery-hope",
+      "values": {
+        "title": "Sarah's Path to Recovery",
+        "body": "<p>Sarah had been living on the streets for five years, struggling with addiction and untreated PTSD. Multiple attempts at recovery had failed because she lacked stable housing. Harbor of Hope changed that equation.</p><p>Through our Recovery and Wellness Program, Sarah received trauma-informed counseling and medication-assisted treatment while living in our transitional housing. A peer support specialist with her own recovery experience walked alongside Sarah every step of the way.</p><h2>A Life Transformed</h2><p>Today Sarah has been sober for two years and lives in her own apartment. She recently completed her peer support certification and now works at the Harbor Wellness Center, helping others on their recovery journeys.</p>",
+        "person_name": "Sarah M.",
+        "program_participated": "Recovery & Wellness Program",
+        "quote": "<p>For the first time in years, I had a safe place to sleep and people who believed in me. That made all the difference.</p>",
+        "outcome": "Two years of sobriety, independent housing, and employment as peer support specialist",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&q=80",
+          "alt": "Portrait representing Sarah's recovery journey"
+        }
+      }
+    },
+    {
+      "id": "page-about",
+      "type": "node.page",
+      "path": "/about",
+      "values": {
+        "title": "About Harbor of Hope",
+        "body": "<p>Harbor of Hope was founded in 1998 by a coalition of community leaders, social workers, and faith-based organizations who recognized that homelessness in Springfield required a coordinated, comprehensive response. What began as a 50-bed emergency shelter has grown into the region's largest provider of homeless services.</p><h2>Our Mission</h2><p>To end homelessness in our community by providing shelter, support services, and pathways to permanent housing with dignity and respect for every individual.</p><h2>Our Approach</h2><p>We believe that homelessness is not a character flaw; it is a systemic challenge that requires systemic solutions. Our Housing First model prioritizes getting people into stable housing quickly, then wrapping them with the support services they need to stay housed. This approach is backed by decades of research and has proven to be the most effective way to end homelessness.</p><h2>Our Values</h2><ul><li><strong>Dignity</strong> - Every person deserves to be treated with respect regardless of circumstance.</li><li><strong>Equity</strong> - We address the root causes of homelessness and work to dismantle systemic barriers.</li><li><strong>Collaboration</strong> - We partner with government agencies, nonprofits, employers, and community members.</li><li><strong>Accountability</strong> - We measure outcomes and continuously improve our programs based on data.</li></ul>"
+      }
+    },
+    {
+      "id": "page-get-help",
+      "type": "node.page",
+      "path": "/get-help",
+      "values": {
+        "title": "Get Help Now",
+        "body": "<h2>If You Are Experiencing Homelessness</h2><p>You are not alone, and help is available. Our team is here to connect you with shelter, food, healthcare, and the support you need to get back on your feet.</p><h2>How to Reach Us</h2><ul><li><strong>Crisis Hotline:</strong> Call (555) 300-HELP (4357) 24 hours a day, 7 days a week</li><li><strong>Walk-In:</strong> Visit our main office at 450 Harbor Boulevard, Springfield, IL 62701</li><li><strong>211 Helpline:</strong> Dial 2-1-1 for referrals to services across the region</li></ul><h2>What to Expect</h2><p>When you reach out, a trained intake specialist will assess your situation and connect you with the most appropriate services. You do not need identification, insurance, or money to receive help. All services are provided free of charge.</p><h2>Emergency Weather Protocol</h2><p>During extreme weather events (temperatures below 20 degrees or above 105 degrees), Harbor of Hope activates our Emergency Weather Protocol, opening additional warming or cooling centers across the city. Call our hotline for the nearest location.</p>"
+      }
+    },
+    {
+      "id": "page-volunteer",
+      "type": "node.page",
+      "path": "/volunteer",
+      "values": {
+        "title": "Volunteer Opportunities",
+        "body": "<h2>Make a Difference in Your Community</h2><p>Volunteers are the backbone of Harbor of Hope. With over 2,000 volunteers contributing more than 50,000 hours annually, our community's generosity makes our mission possible.</p><h2>Current Opportunities</h2><ul><li><strong>Meal Service:</strong> Help prepare and serve meals at our shelters (shifts available daily)</li><li><strong>Shelter Support:</strong> Assist with check-in, organize donations, or provide overnight supervision</li><li><strong>Tutoring & Mentoring:</strong> Work with youth and adults on educational goals</li><li><strong>Professional Services:</strong> Offer your skills in legal, medical, dental, financial, or career coaching</li><li><strong>Drive Team:</strong> Help transport clients to appointments, job interviews, and housing viewings</li></ul><h2>How to Get Started</h2><p>All volunteers must complete a brief orientation session and background check. Group volunteer opportunities are available for corporate teams, faith communities, and student organizations. Contact our Volunteer Coordinator at volunteers@harborofhope.org or call (555) 300-1800.</p>"
+      }
+    }
+  ]
+}

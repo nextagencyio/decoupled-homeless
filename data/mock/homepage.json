@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Harbor of Hope",
+          "path": "/homepage",
+          "heroTitle": "Everyone Deserves a Place to Call Home",
+          "heroSubtitle": "Providing Shelter, Support, and Pathways to Stability",
+          "heroDescription": {
+            "processed": "<p>Harbor of Hope is dedicated to ending homelessness in our community. Through comprehensive services including emergency shelter, transitional housing, job training, and case management, we help individuals and families rebuild their lives with dignity.</p>",
+            "summary": "Harbor of Hope is dedicated to ending homelessness in our community. Through comprehensive services including emergency shelter, transitional housing, job training, and case management, we help indivi"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-served",
+              "title": "",
+              "number": "12,500+",
+              "label": "Individuals Served Annually"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-sheltered",
+              "title": "",
+              "number": "850",
+              "label": "Shelter Beds Nightly"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-housed",
+              "title": "",
+              "number": "2,300",
+              "label": "Permanently Housed Last Year"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-programs",
+              "title": "",
+              "number": "40+",
+              "label": "Programs & Services"
+            }
+          ],
+          "featuredItemsTitle": "Our Programs",
+          "ctaTitle": "Help Us Make a Difference",
+          "ctaDescription": {
+            "processed": "<p>Your support provides warm beds, nutritious meals, and life-changing programs to our neighbors experiencing homelessness. Every contribution brings someone closer to home.</p>",
+            "summary": "Your support provides warm beds, nutritious meals, and life-changing programs to our neighbors experiencing homelessness. Every contribution brings someone closer to home."
+          },
+          "ctaPrimary": "Donate Now",
+          "ctaSecondary": "Volunteer With Us"
+        }
+      ]
+    }
+  }
+}

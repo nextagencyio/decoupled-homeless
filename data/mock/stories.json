@@ -1,0 +1,138 @@
+{
+  "data": {
+    "nodeImpactStories": {
+      "__typename": "NodeImpactStoryConnection",
+      "nodes": [
+        {
+          "__typename": "NodeImpactStory",
+          "id": "story-marcus",
+          "title": "Marcus's Journey Home",
+          "path": "/stories/marcus-journey-home",
+          "body": {
+            "processed": "<p>After losing his job during the pandemic and exhausting his savings, Marcus found himself living in his car for three months. He came to Harbor of Hope feeling defeated and uncertain about the future.</p><p>Through our Job Training Program, Marcus earned his forklift certification and completed a paid internship at a local warehouse. His case manager helped him secure a one-bedroom apartment through our Housing First program.</p><h2>Where Marcus Is Today</h2><p>Marcus has been in stable housing for over a year and was recently promoted to shift supervisor at his company. He now mentors other program participants, sharing his experience and encouraging them to keep going.</p>",
+            "summary": "After losing his job during the pandemic and exhausting his savings, Marcus found himself living in his car for three months. He came to Harbor of Hope feeling defeated and uncertain about the future."
+          },
+          "personName": "Marcus T.",
+          "programParticipated": "Job Training & Employment Program",
+          "quote": {
+            "processed": "<p>Harbor of Hope did not just give me a roof over my head. They gave me back my dignity and a reason to believe in myself again.</p>",
+            "summary": "Harbor of Hope did not just give me a roof over my head. They gave me back my dignity and a reason to believe in myself again."
+          },
+          "outcome": "Permanent housing and full-time employment for 14 months",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=80",
+            "alt": "Portrait representing Marcus's journey to stability",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeImpactStory",
+          "id": "story-deshawn-family",
+          "title": "A New Beginning for the DeShawn Family",
+          "path": "/stories/deshawn-family-new-beginning",
+          "body": {
+            "processed": "<p>When a house fire destroyed everything the DeShawn family owned, parents Keisha and James and their three children had nowhere to turn. They arrived at Family Haven with only the clothes on their backs.</p><p>Within 48 hours, the family was settled into a private room at Family Haven. The children were enrolled in school with transportation arranged, while Keisha and James worked with their case manager to navigate insurance claims and find new housing.</p><h2>Rebuilding Together</h2><p>After 75 days at Family Haven, the DeShawn family moved into a three-bedroom apartment. Community donations helped furnish their new home, and the children have thrived in their new school. Keisha now volunteers at the shelter every Saturday, helping other families during their time of crisis.</p>",
+            "summary": "When a house fire destroyed everything the DeShawn family owned, parents Keisha and James and their three children had nowhere to turn. They arrived at Family Haven with only the clothes on their back"
+          },
+          "personName": "The DeShawn Family",
+          "programParticipated": "Family Haven Shelter & Rapid Rehousing",
+          "quote": {
+            "processed": "<p>Family Haven kept our family together when we thought we had lost everything. They treated us like family and gave our kids a safe place to just be kids.</p>",
+            "summary": "Family Haven kept our family together when we thought we had lost everything. They treated us like family and gave our kids a safe place to just be kids."
+          },
+          "outcome": "Permanent housing secured in 75 days, children enrolled and thriving in school",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&q=80",
+            "alt": "Family in front of their new home",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeImpactStory",
+          "id": "story-sarah",
+          "title": "Sarah's Path to Recovery",
+          "path": "/stories/sarah-recovery-hope",
+          "body": {
+            "processed": "<p>Sarah had been living on the streets for five years, struggling with addiction and untreated PTSD. Multiple attempts at recovery had failed because she lacked stable housing. Harbor of Hope changed that equation.</p><p>Through our Recovery and Wellness Program, Sarah received trauma-informed counseling and medication-assisted treatment while living in our transitional housing. A peer support specialist with her own recovery experience walked alongside Sarah every step of the way.</p><h2>A Life Transformed</h2><p>Today Sarah has been sober for two years and lives in her own apartment. She recently completed her peer support certification and now works at the Harbor Wellness Center, helping others on their recovery journeys.</p>",
+            "summary": "Sarah had been living on the streets for five years, struggling with addiction and untreated PTSD. Multiple attempts at recovery had failed because she lacked stable housing. Harbor of Hope changed th"
+          },
+          "personName": "Sarah M.",
+          "programParticipated": "Recovery & Wellness Program",
+          "quote": {
+            "processed": "<p>For the first time in years, I had a safe place to sleep and people who believed in me. That made all the difference.</p>",
+            "summary": "For the first time in years, I had a safe place to sleep and people who believed in me. That made all the difference."
+          },
+          "outcome": "Two years of sobriety, independent housing, and employment as peer support specialist",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&q=80",
+            "alt": "Portrait representing Sarah's recovery journey",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

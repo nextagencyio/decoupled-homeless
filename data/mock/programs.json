@@ -1,0 +1,154 @@
+{
+  "data": {
+    "nodePrograms": {
+      "__typename": "NodeProgramConnection",
+      "nodes": [
+        {
+          "__typename": "NodeProgram",
+          "id": "program-job-training",
+          "title": "Job Training & Employment Program",
+          "path": "/programs/job-training-employment",
+          "body": {
+            "processed": "<p>Our comprehensive Job Training and Employment Program equips participants with the skills, credentials, and confidence needed to secure and maintain stable employment. From resume writing to interview coaching and on-the-job training, we walk alongside each participant on their path to financial independence.</p><h2>Program Components</h2><ul><li>Skills assessment and career exploration</li><li>Resume writing and interview preparation workshops</li><li>Industry-specific certifications (food service, construction, healthcare)</li><li>Paid internship placements with local employers</li><li>Job retention coaching for 12 months post-placement</li></ul><h2>Outcomes</h2><p>Last year, 78% of program graduates secured employment within 90 days, with an average starting wage of $16.50 per hour. Employer partners include local restaurants, construction firms, healthcare facilities, and manufacturing companies.</p>",
+            "summary": "Our comprehensive Job Training and Employment Program equips participants with the skills, credentials, and confidence needed to secure and maintain stable employment. From resume writing to interview"
+          },
+          "programCategory": [
+            {
+              "id": "job-training",
+              "name": "job-training"
+            }
+          ],
+          "duration": "8 to 12 weeks",
+          "schedule": "Monday through Friday, 9:00 AM - 3:00 PM",
+          "location": "Harbor Workforce Center, 500 Commerce Drive",
+          "contactName": "Marcus Williams",
+          "contactEmail": "mwilliams@harborofhope.org",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&q=80",
+            "alt": "Job training workshop participants learning new skills",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeProgram",
+          "id": "program-housing-first",
+          "title": "Housing First Rapid Rehousing",
+          "path": "/programs/housing-first",
+          "body": {
+            "processed": "<p>Our Housing First model prioritizes moving individuals and families into permanent housing as quickly as possible, then providing the wrap-around support services needed to maintain housing stability. Research consistently shows that Housing First is the most effective approach to ending homelessness.</p><h2>How It Works</h2><ul><li>Housing navigators help locate available affordable apartments</li><li>Financial assistance for security deposits, first month's rent, and move-in costs</li><li>Landlord mediation and advocacy</li><li>Ongoing case management for 12 to 24 months</li><li>Connection to benefits, healthcare, and community resources</li></ul><h2>Results</h2><p>Over 90% of individuals placed through our Housing First program remain housed after one year. This program is funded through HUD Continuum of Care grants and private donations.</p>",
+            "summary": "Our Housing First model prioritizes moving individuals and families into permanent housing as quickly as possible, then providing the wrap-around support services needed to maintain housing stability."
+          },
+          "programCategory": [
+            {
+              "id": "housing-assistance",
+              "name": "housing-assistance"
+            }
+          ],
+          "duration": "12 to 24 months of support services",
+          "schedule": "By appointment",
+          "location": "Harbor Main Office, 450 Harbor Boulevard",
+          "contactName": "Angela Rodriguez",
+          "contactEmail": "arodriguez@harborofhope.org",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+            "alt": "Keys being handed over to a new resident",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeProgram",
+          "id": "program-recovery",
+          "title": "Recovery & Wellness Program",
+          "path": "/programs/recovery-support",
+          "body": {
+            "processed": "<p>The Recovery and Wellness Program provides integrated behavioral health services for individuals experiencing homelessness who are also navigating substance use disorders and mental health challenges. Our trauma-informed approach recognizes the deep connection between homelessness, mental health, and substance use.</p><h2>Services</h2><ul><li>Individual and group counseling sessions</li><li>Medication-assisted treatment coordination</li><li>Peer support from individuals with lived experience</li><li>Recovery housing placements</li><li>Wellness activities including yoga, art therapy, and mindfulness</li></ul><p>All services are provided free of charge by licensed clinicians and certified peer specialists. No insurance required. Walk-ins welcome at our drop-in center Monday through Saturday.</p>",
+            "summary": "The Recovery and Wellness Program provides integrated behavioral health services for individuals experiencing homelessness who are also navigating substance use disorders and mental health challenges."
+          },
+          "programCategory": [
+            {
+              "id": "substance-recovery",
+              "name": "substance-recovery"
+            },
+            {
+              "id": "mental-health",
+              "name": "mental-health"
+            }
+          ],
+          "duration": "Ongoing, individualized treatment plans",
+          "schedule": "Drop-in: Mon-Sat 10:00 AM - 6:00 PM, Groups: Weekday evenings",
+          "location": "Harbor Wellness Center, 475 Harbor Boulevard",
+          "contactName": "Dr. Lisa Park",
+          "contactEmail": "lpark@harborofhope.org",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=800&q=80",
+            "alt": "Group counseling session in a supportive environment",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
