@@ -24,7 +24,7 @@ export default function HeroSection({ homepageContent }: HeroSectionProps) {
           priority
           unoptimized
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-[#faf8f5]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/60 to-black/65" />
       </div>
 
       {/* Content */}
