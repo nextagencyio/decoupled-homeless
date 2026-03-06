@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-served",
               "title": "",
-              "number": "12,500+",
+              "number": "12,500+", "value": "12,500+",
               "label": "Individuals Served Annually"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-sheltered",
               "title": "",
-              "number": "850",
+              "number": "850", "value": "850",
               "label": "Shelter Beds Nightly"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-housed",
               "title": "",
-              "number": "2,300",
+              "number": "2,300", "value": "2,300",
               "label": "Permanently Housed Last Year"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-programs",
               "title": "",
-              "number": "40+",
+              "number": "40+", "value": "40+",
               "label": "Programs & Services"
             }
           ],
