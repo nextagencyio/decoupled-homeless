@@ -22,7 +22,6 @@ export function checkConfiguration(): ConfigStatus {
     'NEXT_PUBLIC_DRUPAL_BASE_URL',
     'DRUPAL_CLIENT_ID',
     'DRUPAL_CLIENT_SECRET',
-    'DRUPAL_REVALIDATE_SECRET'
   ]
 
   const missingVars = requiredVars.filter(varName => {

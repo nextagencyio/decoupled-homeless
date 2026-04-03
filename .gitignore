@@ -89,3 +89,12 @@ storybook-static
 # Temporary folders
 tmp/
 temp/
+
+# Generated schema (re-sync from Drupal)
+/schema/schema.graphql
+/schema/introspection.json
+/schema/types.ts
+
+# Playwright
+/test-results/
+/playwright-report/
